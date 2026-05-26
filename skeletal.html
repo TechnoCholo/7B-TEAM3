@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Skeletal System</title>
+
+<!-- TITLE FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body{
+    background:#d9c8b3;
+    font-family:'Century Gothic', sans-serif;
+}
+
+/* NAVBAR */
+nav{
+    background:#8e8b93;
+    padding:18px;
+    border-radius:0 0 20px 20px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+    font-family:'Century Gothic', sans-serif;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+
+/* HEADER */
+header{
+    text-align:center;
+    padding:40px 20px 10px;
+}
+
+/* MAIN TITLE */
+header h1{
+    font-size:60px;
+    font-family:'Orbitron', sans-serif;
+    letter-spacing:2px;
+    font-weight:800;
+    color:black;
+}
+
+/* MAIN CONTAINER */
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding-bottom:40px;
+}
+
+/* CONTENT BOX */
+.content-box{
+    background:#9d644c;
+    border-radius:18px;
+    padding:40px;
+    margin-top:30px;
+    color:white;
+
+    display:flex;
+    gap:40px;
+    align-items:center;
+    flex-wrap:wrap;
+
+    box-shadow:0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* TEXT */
+.text{
+    flex:1;
+}
+
+/* SUBTITLE */
+.text h2{
+    font-size:35px;
+    margin-bottom:20px;
+
+    font-family:'Orbitron', sans-serif;
+    letter-spacing:2px;
+}
+
+/* PARAGRAPHS */
+.text p{
+    font-size:18px;
+    line-height:1.9;
+
+    font-family:'Century Gothic', sans-serif;
+}
+
+/* IMAGE */
+.content-box img{
+    width:320px;
+    border-radius:12px;
+    border:6px solid #d4b17d;
+    background:white;
+}
+
+/* FOOTER */
+footer{
+    background:#8e8b93;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+
+    font-family:'Century Gothic', sans-serif;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    header h1{
+        font-size:40px;
+    }
+
+    .text h2{
+        font-size:28px;
+    }
+
+    .content-box{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .content-box img{
+        width:230px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+
+<ul>
+
+    <li>
+        <a href="index.html">Home</a>
+    </li>
+
+    <li>
+        <a href="skeletal.html">Skeletal System</a>
+    </li>
+
+    <li>
+        <a href="diseases.html">Bone Diseases</a>
+    </li>
+
+    <li>
+        <a href="types.html">Types of Bones</a>
+    </li>
+
+    <li>
+        <a href="parts.html">Parts of Bone</a>
+    </li>
+
+    <li>
+        <a href="facts.html">Fun Facts</a>
+    </li>
+
+</ul>
+
+</nav>
+
+<!-- HEADER -->
+<header>
+
+<h1>
+    Skeletal System
+</h1>
+
+</header>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+<div class="content-box">
+
+    <!-- TEXT -->
+    <div class="text">
+
+        <h2>What Is the Skeletal System?</h2>
+
+        <p>
+            The skeletal system is the framework of the human body.
+            It is made up of bones, cartilage, joints, and ligaments
+            that all work together to support the body.
+        </p>
+
+        <br>
+
+        <p>
+            The skeletal system protects important organs like the brain,
+            heart, and lungs. It also helps the body move by working
+            together with muscles.
+        </p>
+
+        <br>
+
+        <p>
+            An adult human body has 206 bones that provide structure,
+            protection, and support every day.
+        </p>
+
+    </div>
+
+    <!-- IMAGE -->
+    <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Human_skeleton_front_en.svg"
+    alt="Human Skeleton">
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    Team #3 7°B
+</footer>
+
+</body>
+</html>
